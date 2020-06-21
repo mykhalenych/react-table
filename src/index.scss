@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.conteiner {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vh;
+  background: #d2d4db;
+}
+table {
+  min-width: 700px;
+  min-height: 900px;
+}
+button {
+  margin-top: 10px;
+  width: 60px;
+  height: 30px;
+  background: linear-gradient(135deg, #1e90ff, #6495ed);
+  border-radius: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.thead-th {
+  background-color: #fff;
+}
+tbody {
+  background-color: #fff;
+}
+tr {
+  text-align: center;
+}
+tr:nth-child(odd) {
+  background-color: #d9efdd;
+}
+table {
+  border: 1px solid #ccc;
+  border-spacing: 3px;
+}
+span {
+  cursor: pointer;
+}
+
+th {
+  border: solid 1px #ccc;
+}
+
+tfoot {
+  line-height: 60px;
+  background-color: #1e90ff;
+  text-align: center;
+}
+.center {
+  justify-content: center;
+}
+.error {
+  color: #db313b;
+}
+
+.block {
+  margin: 20px auto;
+
+  &__product-info {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__photo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  &__img {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  &__photo-products {
+    max-width: 100%;
+  }
+
+  &__btn-save {
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+.modal-product {
+  width: 340px;
+  top: 100px;
+  box-shadow: 0px 0px 5px 5px #dddddd;
+  background-color: #fafafa;
+  position: fixed;
+  z-index: 2;
+  border-radius: 25px;
+
+  &__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #db313b;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.modal-input {
+  margin: 10px 0;
+  height: 40px;
+  width: 215px;
+}
+
+.label {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-submit {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 200px;
+  color: #fff;
+  background-color: #58940b;
+  border-radius: 20px;
+}
+
+.container__product-info {
+  flex-direction: column;
+  align-items: center;
+}
+.modal-add-product {
+  width: 500px;
+  top: 50px;
+  left: calc(50% - 250px);
+}
+
+.modal-input {
+  margin: 5px 0;
+  width: 200px;
+  height: 30px;
+}
+
+.btn-submit {
+  margin-top: 0;
+}
